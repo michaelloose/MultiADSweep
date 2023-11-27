@@ -2,12 +2,12 @@
 # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
 
 # Required
-version: 0.1
+version: 2
 
 # Set the OS, Python version and other tools you might need
 build:
   tools:
-    python: "3.10.13"
+    python: "3.10"
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
@@ -16,6 +16,8 @@ sphinx:
   # builder: "dirhtml"
   # Fail on all warnings to avoid broken references
   # fail_on_warning: true
+conda:
+  environment: environment.yml
 
 # Optionally build your docs in additional formats such as PDF and ePub
 # formats:
