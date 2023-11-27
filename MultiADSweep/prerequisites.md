@@ -1,30 +1,20 @@
-# MultiADSweep
-A Python library for controlling Pathwave ADS Simulation out of python with multithreading capability and data evaluation tools.
-
-## Version
-- **MultiADSweep**: 0.1
-
-## Author
-- **Name**: Michael Loose <[michael.loose@fau.de](mailto:michael.loose@fau.de)>
-- **Affiliation**: Lehrstuhl für technische Elektronik, Friedrich-Alexander-Universität Erlangen-Nürnberg
+# System Requirements for MultiADSSweep
 
 ## Tested Environment
-- **Keysight ADS Version**: 2022 rev2, 2023 rev2
+- **Keysight ADS Version**: 2023 rev2
 
 ## Python Version
 - **Required**: Python 3.10.13
 
 ## Required Python Packages
-- `numpy` (Version 1.22.4)
-- `scipy` (Version 1.11.3)
-- `pandas` (Version 1.4.4)
-- `scikit-rf` (Version 0.29.1)
-- `matplotlib` (Version 3.5.3)
-- `tqdm` (Version 4.65.0)
+- `numpy`
+- `scipy`
+- `pandas`
+- `scikit-rf`
+- `matplotlib`
+- `tqdm`
 
 ## Keysight Packages
-**Important Note**: The following Keysight packages are not publicly available but are provided with the installation of Keysight ADS. These packages must be installed manually from the supplied wheel files.
-
 Install the following packages from the wheels supplied with Keysight ADS:
 - `keysight_pwdatatools` (Version 0.5.0)
   - Wheel: `keysight_pwdatatools-0.5.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl`
@@ -51,3 +41,4 @@ For enhanced functionality and user experience, the following packages are recom
   - For interactive widgets in Jupyter notebooks.
 - `mplcursors`
   - For interactive cursors in Jupyter notebooks.
+
