@@ -166,8 +166,14 @@ dependencies:
   - zlib=1.2.13=h5eee18b_0
   - zstd=1.5.5=hc292b87_0
   - pip:
+      - alabaster==0.7.13
+      - babel==2.13.1
       - celluloid==0.2.0
+      - certifi==2023.11.17
+      - charset-normalizer==3.3.2
+      - docutils==0.20.1
       - h5py==3.10.0
+      - imagesize==1.4.1
       - keysight-ads-datalink==5.1
       - keysight-ads-dataset==0.9.1
       - keysight-cdm==1.0.1
@@ -177,6 +183,16 @@ dependencies:
       - numpy==1.22.4
       - pandas==1.4.4
       - pyvisa==1.12.0
+      - requests==2.31.0
       - scikit-rf==0.29.1
+      - snowballstemmer==2.2.0
+      - sphinx==7.2.6
+      - sphinxcontrib-applehelp==1.0.7
+      - sphinxcontrib-devhelp==1.0.5
+      - sphinxcontrib-htmlhelp==2.0.4
+      - sphinxcontrib-jsmath==1.0.1
+      - sphinxcontrib-qthelp==1.0.6
+      - sphinxcontrib-serializinghtml==1.1.9
       - typing-extensions==4.8.0
+      - urllib3==2.1.0
 prefix: /home/users/loose/miniconda3/envs/ads
